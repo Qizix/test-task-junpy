@@ -32,4 +32,4 @@ Example using curl:
   5. The server will respond with a JSON object containing the summarized text.
 
 ## Contact
-  Dziubenko Yarslav - yar.dziub2005@gmail.com
+  Yaroslav Dziubenko - yar.dziub2005@gmail.com
