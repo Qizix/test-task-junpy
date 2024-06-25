@@ -5,16 +5,17 @@ Follow these steps to set up and run the project on your local machine.
 
 ## Installation
 
-  1. Clone the repository:
-  
-    git clone https://github.com/Qizix/test-task-junpy.git
-  2. Navigate to the project directory:
+1. Clone the repository:
 
-    cd test-task-junpy
+       git clone https://github.com/Qizix/test-task-junpy.git
 
-  3. Install the required Python libraries:
+3. Navigate to the project directory:
 
-    pip install -r requirements.txt
+        cd test-task-junpy
+
+4. Install the required Python libraries:
+
+        pip install -r requirements.txt
 
 
 ## Usage
