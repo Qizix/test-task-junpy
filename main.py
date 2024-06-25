@@ -1,5 +1,7 @@
 from fastapi import FastAPI, Request
 import uvicorn
+
+# Simple summarization Hugging Face and LangChain model
 from summarize import summarize_text
 
 
@@ -10,6 +12,7 @@ async def summarize(request: Request):
     data = await request.json()
     text = data.get("text", "")
     
+    # Generating summary
     summary = summarize_text(text)
 
     return {"summary": summary}
